@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nimbus — Turn ideas into products faster with collaborative workflows, automation, and insights." />
+  <title>Nimbus — Startup Landing</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Header & Navbar -->
+  <header class="header" id="home">
+    <!-- ... your header and hero code ... -->
+  </header>
+
+  <!-- Features -->
+  <main>
+    <!-- ... features, testimonials, pricing sections ... -->
+
+    <!-- Pricing -->
+    <section class="section pricing" id="pricing">
+      <div class="container">
+        <div class="section-head">
+          <h2>Simple pricing, built to scale</h2>
+          <p>Choose a plan that fits your team today and tomorrow.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Basic -->
+          <article class="price-card reveal">
+            <div class="price-header">
+              <h3 class="price-title">Basic</h3>
+              <p class="price-amount">$19<span>/mo</span></p>
+            </div>
+            <ul class="price-features">
+              <li>Up to 10 users</li>
+              <li>Roadmaps & tasks</li>
+              <li>Basic analytics</li>
+              <li>Community support</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Choose basic</a>
+          </article>
+
+          <!-- Standard -->
+          <article class="price-card recommended reveal">
+            <div class="badge">Recommended</div>
+            <div class="price-header">
+              <h3 class="price-title">Standard</h3>
+              <p class="price-amount">$49<span>/mo</span></p>
+            </div>
+            <ul class="price-features">
+              <li>Up to 50 users</li>
+              <li>Automation rules</li>
+              <li>Advanced insights</li>
+              <li>Email support</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Choose standard</a>
+          </article>
+
+          <!-- Premium -->
+          <article class="price-card reveal">
+            <div class="price-header">
+              <h3 class="price-title">Premium</h3>
+              <p class="price-amount">$99<span>/mo</span></p>
+            </div>
+            <ul class="price-features">
+              <li>Unlimited users</li>
+              <li>SSO & RBAC</li>
+              <li>Custom integrations</li>
+              <li>Priority support</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Choose premium</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Let’s talk</h2>
+          <p>Tell us about your team and goals. We’ll get back within 1 business day.</p>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your full name" required />
+              <p class="field-error" aria-live="polite"></p>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@company.com" required />
+              <p class="field-error" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="What are you building?" required></textarea>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <output class="form-success" aria-live="polite"></output>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-logo">⛈️</span>
+        <span class="brand-name">Nimbus</span>
+        <p class="footer-text">Build faster. Launch smarter.</p>
+      </div>
+      <div class="footer-social">
+        <a href="#" aria-label="Twitter" class="social-link">🐦</a>
+        <a href="#" aria-label="LinkedIn" class="social-link">🔗</a>
+        <a href="#" aria-label="GitHub" class="social-link">🐙</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Nimbus, Inc. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
